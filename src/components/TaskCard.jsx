@@ -1,3 +1,6 @@
+import { useContext } from "react";
+import { TaskContext } from "../context/TaskContext";
+
 function TaskCard({ task, deleteTask }) {
   return (
     <div key={task.id}>
